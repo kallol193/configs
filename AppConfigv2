@@ -1,6 +1,6 @@
 eureka:
   instance:
-     fetch-ip-address: true
+     prefer-ip-address: true
      instance-id: ${spring.application.name}.${spring.cloud.client.ip-address}.${server.port}
   client:
      fetch-registry: true
